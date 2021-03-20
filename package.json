@@ -1,0 +1,24 @@
+{
+  "name": "whatsis-sdk",
+  "version": "1.0.0",
+  "description": "SDK for Whatsis apis.",
+  "main": "lib",
+  "private": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "test-unit-all": "npm run test -- unit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "create-crud-client": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "20.0.4",
+    "prettier": "1.15.2"
+  }
+}
